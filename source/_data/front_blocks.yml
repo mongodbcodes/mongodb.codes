@@ -1,6 +1,6 @@
 welcome:
   title: Experimental features to improve<br> MongoDB performance
-  description: <a href="https://www.patreon.com/bePatron?u=9746032"  class="btn btn-outline-danger" target="_blank">Become a patron!</a> <a href="https://github.com/mongodbcodes/mongo/releases/tag/r3.6.11" class="btn btn-success" target="_blank">Download 3.6.11</a>
+  description: <a href="https://www.patreon.com/bePatron?u=9746032"  class="btn btn-outline-danger" target="_blank">Become a patron</a> <a href="https://github.com/mongodbcodes/mongo/releases/tag/r3.6.11" class="btn btn-success" target="_blank">Download 3.6.11</a>
   img: logo.png
   type: white
   imgClass: logo
