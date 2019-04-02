@@ -1,0 +1,10 @@
+fancybox: false
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+  includePaths:
+    - source/scss
+    - node_modules/bootstrap/scss
+    - node_modules

@@ -1,0 +1,16 @@
+<center>
+  <div class="card plan mb-3">
+    <img src="<%- url_for("/images/plans/" + img) %>" class="card-img-top"/>
+    <div class="card-body">
+      <h5 class="card-title"><%= title %></h5>
+      <p class="card-text">
+        <p>
+          <%- description %>
+        </p>
+        <div class="price">$<%- price %></div>
+        <div class="term"><%- term %></div>
+      </p>
+      <a href="#" class="btn btn-primary">Activate</a>
+    </div>
+  </div>
+</center>

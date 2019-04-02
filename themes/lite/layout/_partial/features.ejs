@@ -1,0 +1,14 @@
+<div class="block block-features mb-3" id="features">
+  <div class="envelop">
+  <div class="container">
+    <center><h2 class="title">Features</h2></center>
+    <div class="row">
+    <% for (var feature in features){ %>
+      <div class="col-md-6 col-sm-12">
+        <%- partial('_partial/block-feature', features[feature]) %>
+      </div>
+    <% } %>
+    </div>
+  </div>
+  </div>
+</div>

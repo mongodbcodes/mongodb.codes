@@ -1,0 +1,27 @@
+.navbar-brand .logo {
+  height: 27px;
+}
+.logo:hover {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+.navbar-brand span {
+  padding-left: 10px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.bg-footer .logo {
+  height: 27px;
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    direction: rtl;
+  }
+}

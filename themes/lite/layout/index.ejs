@@ -1,0 +1,6 @@
+<% for (var i in site.data.front_blocks){ %>
+  <%- partial('_partial/block-wide', site.data.front_blocks[i]) %>
+<% } %>
+
+
+<%- partial('_partial/features', { features: site.data.features}) %>

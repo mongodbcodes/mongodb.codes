@@ -1,0 +1,21 @@
+opensource:
+  title: Open Source
+  description: Unlimited public repos<br> Lifetime support
+  img: 1.png
+  price: 0
+  term: per month
+
+personal:
+  title: Personal Account
+  description: Unlimited public repos<br> Price per private repo
+  img: 1.png
+  price: 1
+  term: per month
+
+business:
+  title: Business
+  description: Unlimited public repos<br> Price per private repo
+  img: 1.png
+  price: 5
+  term: per month
+

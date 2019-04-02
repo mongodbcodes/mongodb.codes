@@ -1,0 +1,25 @@
+fts:
+  title: FTS - Full Text Search
+  description: Optimisation for `$text` based requests. So far only for "without score" requests. 
+  list: 
+    a: General <strong class="text-primary">speed improvements</strong> that speedup search up to <strong class="text-success">20x</strong> times.
+    b: Negative terms filtered by index
+    c: Positive phrase with multiple words perform AND operation on each word in phrase
+    d: <strong class="text-success">Huge</strong> memory handeling improvements.
+  icon: 
+    name: search
+    prefix: fas
+  type: white
+  imgClass: logo
+cluster:
+  title: $cluster - group by distance
+  description: It's aggregator pipeline stage that generate buckets based on distance between values.
+  list: 
+    a: You define distance and all data will be grouped based on distance between variables
+    b: it's possible to do grouping on multiple values like 2d Geo location
+    c: you can define grouping expressions to define output
+  type: white
+  icon: 
+    name: server
+    prefix: fas
+  imgClass: logo

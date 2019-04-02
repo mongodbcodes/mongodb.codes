@@ -1,0 +1,14 @@
+.block {
+  padding: 15px;
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.block .image {
+  width: 138px;
+  padding: 10px; }
+
+.block .image img {
+  width: 100%; }
+
+.block .description {
+  font-weight: 200; }

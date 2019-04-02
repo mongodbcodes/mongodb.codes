@@ -1,0 +1,15 @@
+<div class="block-feature mb-3">
+  <div class="image">
+    <%- fa_inline(icon.name, {prefix: icon.prefix}) %>
+  </div>
+  <h3 class="title"><%- title %></h3>
+  <div class="description">
+    <p><%- description %>
+    </p>
+    <% for (var item in list){ %>
+      <div >
+        - <%- list[item] %>
+      </div>
+    <% } %>
+  </div>
+</div>

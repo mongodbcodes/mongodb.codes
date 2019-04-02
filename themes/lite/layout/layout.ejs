@@ -1,0 +1,19 @@
+<html>
+  <%- partial('_partial/head') %>
+  <body>
+    <%- partial('_partial/page-header') %>
+    <div class="page">
+    <% if (page.layout==='page')  {%>
+      <div class="container">
+        <h1><%- page.title %></h1>
+        <%- body %>
+      </div>
+    <% }else{ %>
+      <div class="container-fluid">
+        <%- body %>
+      </div>
+    <% } %>
+    <%- partial('_partial/page-footer') %>
+    </div>
+  </body>
+</html>

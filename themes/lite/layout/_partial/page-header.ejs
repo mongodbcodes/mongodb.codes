@@ -1,0 +1,28 @@
+<nav class="navbar  navbar-expand-sm navbar-light ">
+  <div class="container">
+    <% if (config.title){ %>
+      <a class="navbar-brand" href="<%- config.root %>"><img class="logo d-inline-block align-top" src="<%- url_for("/images/logo.png") %>"><span><%- config.title %></span></a>
+    <% } %>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav">
+        <% for (var i in site.data.menu){ %>
+          <li class="nav-item <%= is_current(site.data.menu[i]) ? 'active' : '' %>">
+            <a class="nav-link" href="<%- url_for(site.data.menu[i]) %>"><%= i %></a>
+          </li>
+        <% } %>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

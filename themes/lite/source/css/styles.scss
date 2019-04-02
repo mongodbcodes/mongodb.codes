@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "bootstrap.scss";
+@import "blocks.scss";
+@import "plans.scss";
+@import "features.scss";
+@import "steps.scss";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 60px);
+}
+
+.bg-footer {
+  color: $gray-500;
+}
+
+
+h1 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 1.5rem;
+}
+
+@import "source/custom.scss";
