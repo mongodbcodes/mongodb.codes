@@ -53,7 +53,7 @@
         <img src="/images/logo.png" class="logo">
       </div>
       <h2 class="title">Experimental features to improve<br> MongoDB performance</h2>
-      <div class="description"><a href="https://www.patreon.com/bePatron?u=9746032" class="btn btn-outline-danger" target="_blank">Become a patron</a> <a href="https://github.com/mongodbcodes/mongo/releases/tag/r3.6.11" class="btn btn-success" target="_blank">Download 3.6.11</a></div>
+      <div class="description"><a href="https://www.patreon.com/bePatron?u=9746032" class="btn btn-outline-danger" target="_blank">Become a patron</a> <a href="https://github.com/mongodbcodes/mongo/releases/tag/r3.6.11-2" class="btn btn-success" target="_blank">Download 3.6.11-2</a></div>
     </center>
   </div>
 </div>
@@ -73,7 +73,7 @@
   </div>
   <h3 class="title">FTS - Full Text Search</h3>
   <div class="description">
-    <p>Optimisation for `$text` based requests. So far only for "without score" requests.
+    <p>
     </p>
     
       <div>
@@ -81,15 +81,27 @@
       </div>
     
       <div>
-        - Negative terms filtered by index
+        - Negative terms filtered by index.
       </div>
     
       <div>
-        - Positive phrase with multiple words perform AND operation on each word in phrase
+        - Positive phrase with multiple words perform AND operation on each word in phrase.
       </div>
     
       <div>
         - <strong class="text-success">Huge</strong> memory handeling improvements.
+      </div>
+    
+      <div>
+        - Score searches return results in order by default.
+      </div>
+    
+      <div>
+        - <strong class="text-success">No need for extra sorting</strong> and fast limit score based searches.
+      </div>
+    
+      <div>
+        - See roadmap <a href="https://github.com/mongodbcodes/mongo/wiki/Roadmap-for-FST">here</a>
       </div>
     
   </div>

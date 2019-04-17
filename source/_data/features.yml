@@ -1,11 +1,14 @@
 fts:
   title: FTS - Full Text Search
-  description: Optimisation for `$text` based requests. So far only for "without score" requests. 
+  description: 
   list: 
     a: General <strong class="text-primary">speed improvements</strong> that speedup search up to <strong class="text-success">20x</strong> times.
-    b: Negative terms filtered by index
-    c: Positive phrase with multiple words perform AND operation on each word in phrase
+    b: Negative terms filtered by index.
+    c: Positive phrase with multiple words perform AND operation on each word in phrase.
     d: <strong class="text-success">Huge</strong> memory handeling improvements.
+    e: Score searches return results in order by default.
+    f: <strong class="text-success">No need for extra sorting</strong> and fast limit score based searches.
+    g: See roadmap <a href="https://github.com/mongodbcodes/mongo/wiki/Roadmap-for-FST">here</a>
   icon: 
     name: search
     prefix: fas
