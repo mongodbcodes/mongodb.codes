@@ -5,3 +5,10 @@ welcome:
   type: example
   title_position: top
   imgClass: example
+twitter:
+  title: News, updates and releases
+  img: twitter.png
+  description: '<a class="twitter-timeline" data-lang="en" data-link-color="#3E97C4" href="https://twitter.com/MongodbC?ref_src=twsrc%5Etfw">Tweets by MongodbC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+  type: twitter
+  title_position: bottom
+  imgClass: none
