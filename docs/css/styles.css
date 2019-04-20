@@ -7035,12 +7035,6 @@ a.text-dark:hover, a.text-dark:focus {
 .block .description {
   font-weight: 200; }
 
-.plan .price {
-  font-size: 4em; }
-
-.plan .term {
-  color: #6c757d; }
-
 .block-features {
   margin-left: -15px;
   margin-right: -15px;
@@ -7058,73 +7052,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #f8f9fa;
   padding: 15px;
   padding-top: 45px; }
-
-.step {
-  padding: 15px;
-  background-color: white;
-  border: 1px solid #a9c4dd;
-  border-radius: 2px;
-  margin-bottom: 2rem; }
-
-.step .image {
-  width: 138px;
-  padding: 10px;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
-
-.step .image img {
-  width: 100%; }
-
-.step .title {
-  margin-bottom: 1rem;
-  font-weight: bold; }
-
-.step .description {
-  text-align: justify;
-  font-weight: 200; }
-
-.step_number {
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
-  color: #a9c4dd;
-  padding-left: 5px; }
-
-.block-steps {
-  position: relative; }
-
-.block-steps::after {
-  content: "";
-  background: url(/images/bg.png);
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1; }
-
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0); }
-  40% {
-    -webkit-transform: translateY(-30px); }
-  60% {
-    -webkit-transform: translateY(-15px); } }
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0); }
-  40% {
-    transform: translateY(-30px); }
-  60% {
-    transform: translateY(-15px); } }
-
-.step .image:hover {
-  -webkit-animation-name: bounce;
-  animation-name: bounce; }
 
 .page {
   display: flex;
@@ -7175,3 +7102,6 @@ h1, h2, h3, h4, h5, h6,
     flex-direction: row;
     width: 100%;
     direction: rtl; } }
+
+.block-example .image {
+  width: 100%; }
