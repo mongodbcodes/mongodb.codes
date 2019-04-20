@@ -30,3 +30,6 @@
     flex-direction: row;
     width: 100%;
     direction: rtl; } }
+
+.block-example .image {
+  width: 100%; }

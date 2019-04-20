@@ -1,10 +1,15 @@
 <div class="block block-<%= type %> mb-5">
   <div class="container ">
     <center>
+      <% if(title_position == "top"){ %>
+      <h2 class="title"><%- title %></h2>
+      <% } %>
       <div class="image">
         <img src="<%- url_for("/images/" + img) %>" class="<%= imgClass %>"/>
       </div>
+      <% if(title_position != "top"){ %>
       <h2 class="title"><%- title %></h2>
+      <% } %>
       <div class="description"><%- description %></div>
     </center>
   </div>

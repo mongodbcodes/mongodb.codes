@@ -4,3 +4,7 @@
 
 
 <%- partial('_partial/features', { features: site.data.features}) %>
+
+<% for (var i in site.data.front_blocks_bottom){ %>
+  <%- partial('_partial/block-wide', site.data.front_blocks_bottom[i]) %>
+<% } %>

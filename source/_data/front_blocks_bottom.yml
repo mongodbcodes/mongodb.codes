@@ -1,0 +1,7 @@
+welcome:
+  title: Performance tests
+  description: We are running public available server <strong>4C/8T 3.2Ghz 32GB RAM 2xSSD</strong> for example and performance tests. <br>If you want to run your own tests on this server, please check <br> <a href="https://github.com/mongodbcodes/hackaton" class="btn btn-success" target="_blank">this repository</a>
+  img: example.png
+  type: example
+  title_position: top
+  imgClass: example
